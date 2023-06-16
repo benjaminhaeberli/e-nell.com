@@ -1,0 +1,13 @@
+label: Questions (FAQ)
+type: structure
+sortable: true
+fields:
+  title:
+    label: Title
+    type: text
+  answer:
+    label: Answer
+    type: writer
+  open:
+    label: Open?
+    type: toggle

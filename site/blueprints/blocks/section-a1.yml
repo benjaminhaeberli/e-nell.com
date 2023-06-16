@@ -1,0 +1,14 @@
+name: Section A1 (Hero)
+icon: dashboard
+fields:
+  html:
+    label: HTML
+    type: textarea
+    size: medium
+  image:
+    label: Image
+    max: 1
+    type: files
+    uploads:
+      parent: site
+      template: image

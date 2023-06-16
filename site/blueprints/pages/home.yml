@@ -9,31 +9,18 @@ tabs:
         icon: text
         label: Content
         fields:
-          hero_title:
-            label: Hero - Title
-            type: textarea
-            size: medium
-          hero_text:
-            label: Hero - Text
-            type: textarea
-            size: small
-          questions:
-            label: Questions (FAQ)
-            type: structure
-            sortable: true
-            fields:
-              title:
-                label: Title
-                type: text
-              answer:
-                label: Answer
-                type: writer
-              open:
-                label: Open?
-                type: toggle
+          blocks:
+            label: Contenu
+            type: blocks
+            fieldsets:
+              - section-a1
+
       - width: 5/12
         icon: text
         label: Content
-        fields:
-          submenu: fields/submenu
-          seo: fields/seo/meta
+        sections:
+          seo:
+            type: fields
+            fields:
+              seo: fields/seo/meta
+          files: sections/gallery

@@ -9,6 +9,10 @@
             <div class="bh__kirbytext">
                 <?= page()->main_content()->kt() ?>
             </div>
+            <?php
+            /** @var Kirby\Cms\Site $site */
+            dump($site->files()->template('image'));
+            ?>
     </section>
 </main>
 

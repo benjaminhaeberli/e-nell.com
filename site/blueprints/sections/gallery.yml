@@ -1,0 +1,5 @@
+label: Médias
+status: all
+template: image
+search: true
+parent: site

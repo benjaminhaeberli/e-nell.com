@@ -1,0 +1,11 @@
+title: Image
+accept: image/jpeg, image/png
+
+columns:
+  - width: 7/12
+    icon: text
+    label: Méta-données
+    fields:
+      blocks:
+        label: Titre
+        type: text

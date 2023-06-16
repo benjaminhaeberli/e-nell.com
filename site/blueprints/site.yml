@@ -5,7 +5,7 @@ options:
 
 tabs:
   content:
-    label: Content
+    label: Pages
     columns:
       left:
         width: 1/2
@@ -13,48 +13,24 @@ tabs:
           pages:
             label: Pages
             status: all
+          files: sections/gallery
       right:
         width: 1/2
         fields:
-          availability:
-            label:
-              en: Availability
-              fr: Disponibilité
-            type: writer
-            inline: true
+          town:
+            label: Ville
+            type: text
+            placeholder: 'Paris'
+            translate: false
           email:
             label: Email
             type: email
-          linkedin:
-            icon: linkedin
-            label: LinkedIn
-            placeholder: 'https://www.linkedin.com/in/benjaminhaeberli/'
             translate: false
-            type: url
-          github:
-            icon: github
-            label: GitHub
-            placeholder: 'github.com/benjaminhaeberli'
+          phone:
+            icon: phone
+            label: Téléphone
+            type: tel
+            placeholder: '+33 6 00 00 00 00'
             translate: false
-            type: url
-          megamenu:
-            label:
-              en: Main menu
-              fr: Menu principal
-            type: structure
-            sortable: true
-            fields:
-              target_page:
-                label: Page
-                type: pages
-                multiple: false
-                required: true
-              svg_icon:
-                label:
-                  en: Icon (SVG)
-                  fr: Icône (SVG)
-                type: textarea
-                size: medium
-                required: true
   meta:
     label: Meta (todo)
