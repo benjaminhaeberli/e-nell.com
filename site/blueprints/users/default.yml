@@ -1,0 +1,17 @@
+title:
+  en: User
+  fr: Utilisateur
+
+fields:
+  portfolio:
+    label: Portfolio
+    translate: false
+    type: url
+    width: 1/2
+  linkedin:
+    icon: linkedin
+    label: LinkedIn
+    translate: false
+    placeholder: 'https://www.linkedin.com/in/benjaminhaeberli/'
+    type: url
+    width: 1/2

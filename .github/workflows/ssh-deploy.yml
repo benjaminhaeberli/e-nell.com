@@ -1,0 +1,30 @@
+on:
+  workflow_run:
+    workflows: ['tests']
+    branches: [main]
+    types:
+      - completed
+
+name: SSH deploy 🚀
+jobs:
+  ssh-deploy:
+    name: 🎉 Deploy via SSH
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔨 Executing SSH commands
+        uses: appleboy/ssh-action@v0.1.10
+        env:
+          SSH_DIR: ${{ secrets.SSH_DIR }}
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          port: 22
+          envs: SSH_DIR
+          script: |
+            cd $SSH_DIR
+            eval "$(ssh-agent -s)"
+            ssh-add ~/.ssh/id_portfolio
+            rm -rf vendor/
+            git pull
+            composer install --no-dev --optimize-autoloader --no-interaction

@@ -1,0 +1,69 @@
+# -------------GENERAL-------------
+
+# System files
+# ------------
+
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+
+/media/*
+!/media/index.html
+
+# Lock files
+# ---------------
+
+.lock
+
+# Editors
+# (sensitive workspace files)
+# ---------------------------
+*.sublime-workspace
+/.vscode
+/.idea
+
+# Kirby
+# (core file, automatically installed with composer)
+# --------------------------------------------------
+/kirby
+/vendor
+/node_modules
+/site/plugins/*
+!/site/accounts/index.html
+
+# Development
+# --------------------------------------------------
+.env
+/.phpunit.cache
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/site/cache/*
+!/site/cache/index.html
+
+# Accounts
+# ---------------
+
+/site/accounts/*
+!/site/accounts/index.html
+
+# Sessions
+# ---------------
+
+/site/sessions/*
+!/site/sessions/index.html
+
+# License
+# ---------------
+
+/site/config/.license

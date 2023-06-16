@@ -1,0 +1,16 @@
+title: Default Page
+
+tabs:
+  content:
+    icon: text
+    label: Content
+    fields:
+      description:
+        label: Description
+        type: text
+      text:
+        label: Text
+        type: textarea
+        size: large
+  meta:
+    label: Meta (todo)
