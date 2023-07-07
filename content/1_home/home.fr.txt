@@ -2,11 +2,11 @@ Title: Accueil
 
 ----
 
-Blocks: [{"content":{"html":"","image":["file://Qg4oMm7pXK6FwMer"]},"id":"23857df6-5180-43b4-8f4f-64c02f538700","isHidden":false,"type":"section-a1"}]
+Blocks: []
 
 ----
 
-Kirbyseoobject: 
+Kirbyseoobject:
 
 ----
 

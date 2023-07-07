@@ -9,11 +9,7 @@ tabs:
         icon: text
         label: Content
         fields:
-          blocks:
-            label: Contenu
-            type: blocks
-            fieldsets:
-              - section-a1
+          builder: fields/builder
 
       - width: 5/12
         icon: text
