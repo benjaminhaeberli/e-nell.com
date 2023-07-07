@@ -1,0 +1,18 @@
+label: Contact
+type: object
+fields:
+  town:
+    label: Ville
+    type: text
+    placeholder: 'Paris'
+    translate: false
+  email:
+    label: Email
+    type: email
+    translate: false
+  phone:
+    icon: phone
+    label: Téléphone
+    type: tel
+    placeholder: '+33 6 00 00 00 00'
+    translate: false

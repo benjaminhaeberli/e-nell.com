@@ -1,0 +1,11 @@
+label:
+  en: Footer menu
+  fr: Menu footer
+type: structure
+sortable: true
+fields:
+  target_page:
+    label: Page
+    type: pages
+    multiple: false
+    required: true

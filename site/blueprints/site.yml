@@ -10,27 +10,46 @@ tabs:
       left:
         width: 1/2
         sections:
+          fieldsA:
+            type: fields
+            fields:
+              info1:
+                label: ''
+                type: info
+                theme: none
+                text: '<h1>Gestion des contenus</h1>'
           pages:
             label: Pages
             status: all
+            type: pages
           files: sections/gallery
+          fieldsB:
+            type: fields
+            fields:
+              info2:
+                label: ''
+                type: info
+                theme: none
+                text: '<h1>Navigation</h1>'
+              main_menu: fields/main_menu
+              footer_menu: fields/footer_menu
       right:
         width: 1/2
         fields:
-          town:
-            label: Ville
+          info3:
+            label: ''
+            type: info
+            theme: none
+            text: '<h1>Informations générales</h1>'
+          global_slogan:
+            label: Slogan
             type: text
-            placeholder: 'Paris'
-            translate: false
-          email:
-            label: Email
-            type: email
-            translate: false
-          phone:
-            icon: phone
-            label: Téléphone
-            type: tel
-            placeholder: '+33 6 00 00 00 00'
-            translate: false
-  meta:
-    label: Meta (todo)
+          global_contact: fields/global_contact
+          global_credits:
+            label: Crédits
+            type: textarea
+            size: small
+          global_sustainability:
+            label: Éco-conception
+            type: textarea
+            size: medium

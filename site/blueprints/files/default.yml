@@ -6,5 +6,6 @@ columns:
     label: Méta-données
     fields:
       blocks:
-        label: Titre
+        label: Texte alternatif
         type: text
+        maxlength: 125

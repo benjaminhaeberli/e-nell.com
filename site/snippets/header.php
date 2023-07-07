@@ -1,5 +1,6 @@
 <?php
 
+use BenjaminHaeberli\Portfolio\KirbyAssets;
 use Kirby\Cms\Html;
 use Kirby\Cms\Url;
 
@@ -15,7 +16,7 @@ use Kirby\Cms\Url;
     <link rel="icon" href="<?= Url::to('assets/favicon/favicon.svg') ?>">
     <link rel="icon" type="image/svg+xml" href="<?= Url::to('/assets/favicon/favicon.svg') ?>">
     <link rel="icon" type="image/png" href="<?= Url::to('/assets/favicon/favicon.png') ?>">
-    <?= Html::css('assets/public.css') ?>
+    <?= KirbyAssets::versionedCss('assets/public.css') ?>
 </head>
 
 <body>
@@ -62,6 +63,6 @@ use Kirby\Cms\Url;
                 </li>
             </ol>
         </nav>
-        <?php snippet('megamenu') ?>
+        <?php snippet('mainmenu') ?>
         <?php /* snippet('submenu') */ ?>
     </header>

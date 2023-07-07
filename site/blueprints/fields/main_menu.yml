@@ -1,0 +1,11 @@
+label:
+  en: Main menu
+  fr: Menu principal
+type: structure
+sortable: true
+fields:
+  target_page:
+    label: Page
+    type: pages
+    multiple: false
+    required: true

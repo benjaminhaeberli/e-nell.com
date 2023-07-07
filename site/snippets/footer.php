@@ -1,5 +1,6 @@
 <?php
 
+use BenjaminHaeberli\Portfolio\KirbyAssets;
 use Kirby\Cms\Html;
 
 ?>
@@ -23,8 +24,8 @@ use Kirby\Cms\Html;
     </nav>
 </footer>
 
-<?= Html::js('assets/app.js', 'defer') ?>
-<script defer data-domain="benjaminhaeberli.ch" src="https://collect.benjaminhaeberli.ch/assets/collect.js" nonce="<?= site()->nonce() ?>"></script>
+<?= KirbyAssets::versionedJs('assets/js/app.js', 'defer') ?>
+<script defer data-domain="e-nell.com" src="https://collect.benjaminhaeberli.ch/assets/collect.js?v=100" nonce="<?= site()->nonce() ?>"></script>
 </body>
 
 </html>

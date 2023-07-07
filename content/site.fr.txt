@@ -1,3 +1,57 @@
+Main-menu: 
+
+----
+
+Footermenu: 
+
+----
+
+Global-slogan: Optez pour le management de transition à impact
+
+----
+
+Global-contact:
+
+town: Paris
+email: achta.hadje@e-nell.com
+phone: +33 6 00 00 00 00
+
+----
+
+Global-credits:
+
+Design par (link: https://sylvaintersoglio.com/ text: Sylvain Tersoglio)
+Développement par (link: https://benjaminhaeberli.ch/ text: Benjamin Haeberli)
+Rédaction par (link: https://lecomptoirdescontenus.fr/ text: Claire Guichard)
+
+----
+
+Global-sustainability:
+
+<p class="text-lg">Ce site a été créé avec sobriété<p>
+
+<p>Cette page génère seulement 0.XX g de CO<sub>2</sub> à chaque visite, soit moins que 9X% des sites web. L'hébergement est exclusivement alimenté (link: https://www.infomaniak.com/fr/ecologie text: grâce à de l'énergie renouvelable).<p>
+
+L’estimation de CO<sub>2</sub> a été réalisée grâce (link: https://www.websitecarbon.com/website/e-nell-com/ text: au site websitecarbon.com)
+
+----
+
+Mainmenu: 
+
+----
+
+Globalcontact:
+
+town: Paris
+email: achta.hadje@e-nell.com
+phone: +33 6 00 00 00 00
+0:
+  title: ""
+  answer: ""
+  open: 'false'
+
+----
+
 Town: Paris
 
 ----

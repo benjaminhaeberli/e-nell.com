@@ -4,11 +4,11 @@ use BenjaminHaeberli\Portfolio\KirbyHelper;
 
 ?>
 
-<?php if (KirbyHelper::siteHasField('megamenu')) : ?>
+<?php if (KirbyHelper::siteHasField('mainmenu')) : ?>
     <nav class="flex gap-2 pb-4 mx-auto text-lg font-semibold">
         <ol class="flex gap-2">
             <?php
-            $links = site()->megamenu()->toStructure();
+            $links = site()->mainmenu()->toStructure();
             foreach ($links as $link) : ?>
                 <?php $page = $link->target_page()->toPage() ?>
                 <?php if (($page = KirbyHelper::isPage($page)) instanceof \Kirby\Cms\Page) : ?>

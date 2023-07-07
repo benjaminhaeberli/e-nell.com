@@ -1,5 +1,5 @@
-title: Image
-accept: image/jpeg, image/png, image/webp, image/avif
+title: SVG
+accept: image/svg+xml
 
 columns:
   - width: 7/12
