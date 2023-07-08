@@ -1,4 +1,5 @@
-label: Médias
+label: Images
+type: files
 status: all
 template: image
 search: true

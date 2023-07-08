@@ -22,7 +22,8 @@ tabs:
             label: Pages
             status: all
             type: pages
-          files: sections/gallery
+          images: sections/images
+          icons: sections/icons
           fieldsB:
             type: fields
             fields:

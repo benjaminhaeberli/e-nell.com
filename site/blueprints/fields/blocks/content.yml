@@ -1,0 +1,6 @@
+label: Contenu
+type: blocks
+fieldsets:
+  - text
+  - list
+  - markdown

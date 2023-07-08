@@ -1,14 +1,16 @@
 name: Bloc A (Hero)
 icon: dashboard
 fields:
-  html:
-    label: HTML
-    type: textarea
-    size: medium
-  image:
-    label: Image
-    max: 1
-    type: files
-    uploads:
-      parent: site
-      template: image
+  title:
+    extends: fields/blocks/title
+    text: |
+      <h2>Bloc A</h2>
+  content: fields/blocks/content
+  image: fields/blocks/image
+  svg_background:
+    label: Background SVG
+    type: radio
+    options:
+      none: Aucun
+      white: Blanc
+      blue: Bleu

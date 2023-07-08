@@ -2,11 +2,20 @@ Title: Accueil
 
 ----
 
-Blocks: []
+Builder: [{"content":{"content":"","image":[],"svg_background":""},"id":"37f07543-c1e6-41b0-bde8-9de92f67c276","isHidden":false,"type":"bloc-a"}]
 
 ----
 
 Kirbyseoobject:
+
+kirbyseometatitle: ""
+kirbyseometadesc: ""
+kirbyseokeywords: ""
+kirbyseocanonicalurl: ""
+
+----
+
+Blocks: []
 
 ----
 

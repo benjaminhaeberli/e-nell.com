@@ -1,0 +1,6 @@
+label: Icônes
+type: files
+status: all
+template: icon
+search: true
+parent: site

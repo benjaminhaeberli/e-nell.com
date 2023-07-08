@@ -1,0 +1,7 @@
+label: Image
+max: 1
+type: files
+query: site.files.filterBy('template', 'image')
+uploads:
+  parent: site
+  template: image

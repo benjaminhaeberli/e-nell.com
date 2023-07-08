@@ -1,0 +1,7 @@
+label: Icône
+max: 1
+type: files
+query: site.files.filterBy('template', 'icon')
+uploads:
+  parent: site
+  template: icon

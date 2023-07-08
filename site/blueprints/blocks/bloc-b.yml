@@ -1,10 +1,17 @@
 name: Bloc B (CTA)
 icon: dashboard
 fields:
-  html:
-    label: HTML
-    type: textarea
-    size: medium
+  surtitle:
+    label: Surtitre
+    type: text
+    size: small
+  blocks:
+    label: Contenu
+    type: blocks
+    fieldsets:
+      - text
+      - list
+      - markdown
   image:
     label: Image
     max: 1
