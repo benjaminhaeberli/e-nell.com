@@ -4,3 +4,4 @@ fieldsets:
   - text
   - list
   - markdown
+  - button

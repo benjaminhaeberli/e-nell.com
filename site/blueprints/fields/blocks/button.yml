@@ -1,0 +1,4 @@
+label: Bouton
+type: object
+fields:
+  button: fields/groups/button

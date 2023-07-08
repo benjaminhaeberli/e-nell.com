@@ -1,0 +1,10 @@
+name: Bloc B (CTA)
+icon: dashboard
+fields:
+  surtitle:
+    label: Surtitre
+    type: text
+    size: small
+  content: fields/blocks/content
+  image: fields/blocks/image
+  button: fields/blocks/button

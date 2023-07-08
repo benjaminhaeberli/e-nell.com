@@ -1,0 +1,4 @@
+name: Bouton
+icon: url
+fields:
+  button: fields/groups/button

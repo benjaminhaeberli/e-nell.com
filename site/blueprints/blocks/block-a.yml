@@ -8,8 +8,9 @@ fields:
   content: fields/blocks/content
   image: fields/blocks/image
   svg_background:
-    label: Background SVG
+    label: Fond (SVG)
     type: radio
+    default: none
     options:
       none: Aucun
       white: Blanc

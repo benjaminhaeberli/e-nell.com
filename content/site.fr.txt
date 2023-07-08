@@ -2,7 +2,16 @@ Main-menu:
 
 ----
 
-Footermenu: 
+Footer-menu: 
+
+----
+
+Kirbyseoobject:
+
+kirbyseometatitle: "E-nell - Cabinet spécialisé dans l'accélérationde la transformation digitale"
+kirbyseometadesc: 'Donnez de l’impact à vos systèmes d’information : E-nell vous accompagne vers une transition digitale résiliente.'
+kirbyseokeywords: ""
+kirbyseocanonicalurl: ""
 
 ----
 
@@ -33,6 +42,10 @@ Global-sustainability:
 <p>Cette page génère seulement 0.XX g de CO<sub>2</sub> à chaque visite, soit moins que 9X% des sites web. L'hébergement est exclusivement alimenté (link: https://www.infomaniak.com/fr/ecologie text: grâce à de l'énergie renouvelable).<p>
 
 L’estimation de CO<sub>2</sub> a été réalisée grâce (link: https://www.websitecarbon.com/website/e-nell-com/ text: au site websitecarbon.com)
+
+----
+
+Footermenu: 
 
 ----
 

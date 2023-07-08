@@ -36,21 +36,25 @@ tabs:
               footer_menu: fields/footer_menu
       right:
         width: 1/2
-        fields:
-          info3:
-            label: ''
-            type: info
-            theme: none
-            text: '<h1>Informations générales</h1>'
-          global_slogan:
-            label: Slogan
-            type: text
-          global_contact: fields/global_contact
-          global_credits:
-            label: Crédits
-            type: textarea
-            size: small
-          global_sustainability:
-            label: Éco-conception
-            type: textarea
-            size: medium
+        sections:
+          fieldsC:
+            type: fields
+            fields:
+              info3:
+                label: ''
+                type: info
+                theme: none
+                text: '<h1>Informations générales</h1>'
+              global_seo: fields/seo/meta
+              global_slogan:
+                label: Slogan
+                type: text
+              global_contact: fields/global_contact
+              global_credits:
+                label: Crédits
+                type: textarea
+                size: small
+              global_sustainability:
+                label: Éco-conception
+                type: textarea
+                size: medium

@@ -2,7 +2,7 @@ Title: Accueil
 
 ----
 
-Builder: [{"content":{"content":"","image":[],"svg_background":""},"id":"37f07543-c1e6-41b0-bde8-9de92f67c276","isHidden":false,"type":"bloc-a"}]
+Builder: [{"content":{"content":"[{\"content\":{\"text\":\"<p>Donnez de &lt;span class=\\\"text-nell-orange\\\"&gt;l’impact&lt;/span&gt; à vos systèmes d’information</p><p>E-nell vous accompagne vers une transition digitale résiliente</p>\"},\"id\":\"c3b7d75f-5904-4e76-bca7-6833fb74942c\",\"isHidden\":false,\"type\":\"text\"},{\"content\":{\"text\":\"Découvrir\",\"link\":\"https://e-nell.com/management-de-transition/\",\"has_icon\":\"true\",\"target_blank\":\"true\"},\"id\":\"3f1c0a6a-1b85-4a65-8cf0-29aa8d87b63a\",\"isHidden\":false,\"type\":\"button\"}]","image":[],"svg_background":"none"},"id":"37f07543-c1e6-41b0-bde8-9de92f67c276","isHidden":false,"type":"block-a"},{"content":{"surtitle":"Équipes dirigeantes, managériales et IT","content":"[{\"content\":{\"text\":\"<p>Bénéficiez d’un accompagnement en &lt;span class=\\\"text-nell-organe\\\"&gt;transformation digitale responsable&lt;/span&gt;</p><p>Consciente que la transition sociale et environnementale passe aussi par les entreprises, je vous accompagne pour <strong>muscler votre compréhension des enjeux environnementaux liés au numérique, prendre les bonnes décisions et embarquer vos équipes dans ce défi</strong>.</p>\"},\"id\":\"b1d7691e-3b5a-4244-92d1-9c9b1056046f\",\"isHidden\":false,\"type\":\"text\"}]","image":[],"button":{"text":"On en discute ?","link":"https://e-nell.com/contact/","has_icon":"true","target_blank":"false"}},"id":"642d30f3-6140-4eca-b976-66108454b11f","isHidden":false,"type":"block-b"}]
 
 ----
 

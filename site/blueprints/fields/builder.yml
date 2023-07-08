@@ -1,5 +1,5 @@
 label: Contenu
 type: blocks
 fieldsets:
-  - bloc-a
-  - bloc-b
+  - block-a
+  - block-b

@@ -1,0 +1,28 @@
+type: group
+fields:
+  title:
+    extends: fields/blocks/title
+    text: |
+      <h2>Bouton</h2>
+  text:
+    label: Texte
+    type: text
+  link:
+    label: Lien
+    type: url
+  has_icon:
+    label: Afficher l'icône?
+    type: toggle
+    default: false
+    width: 1/2
+    text:
+      - Non
+      - Oui
+  target_blank:
+    label: Ouvrir dans une nouvelle fenêtre?
+    type: toggle
+    default: true
+    width: 1/2
+    text:
+      - Non
+      - Oui
