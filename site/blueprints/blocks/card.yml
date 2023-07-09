@@ -1,0 +1,24 @@
+name: Carte (icône)
+icon: tablet
+fields:
+  title:
+    extends: fields/blocks/html
+    label: Titre
+  variant:
+    label: Variante
+    type: select
+    required: true
+    default: icon
+    options:
+      icon: Icône
+      illustrated: Illustrée
+  icon:
+    extends: fields/blocks/icon
+    when:
+      variant: icon
+  illustration:
+    extends: fields/blocks/image
+    required: true
+    when:
+      variant: illustrated
+  html: fields/blocks/html

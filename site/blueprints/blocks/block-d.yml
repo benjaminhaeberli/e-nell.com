@@ -1,0 +1,11 @@
+name: Bloc D (Liste de cartes)
+icon: dashboard
+fields:
+  title:
+    extends: fields/blocks/html
+    label: Titre
+  cards:
+    label: Cartes
+    type: blocks
+    fieldsets:
+      - card

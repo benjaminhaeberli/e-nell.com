@@ -5,7 +5,8 @@ fields:
     extends: fields/blocks/title
     text: |
       <h2>Bloc A</h2>
-  content: fields/blocks/content
+  html: fields/blocks/html
+  button: fields/blocks/button
   image: fields/blocks/image
   svg_background:
     label: Fond (SVG)
