@@ -1,9 +1,0 @@
-Uuid: lpDucatgS4BSkE1c
-
-----
-
-Template: icon
-
-----
-
-Sort: 1

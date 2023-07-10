@@ -3,8 +3,8 @@ title:
   fr: Utilisateur
 
 fields:
-  portfolio:
-    label: Portfolio
+  website:
+    label: Site web
     translate: false
     type: url
     width: 1/2

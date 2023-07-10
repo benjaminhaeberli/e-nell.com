@@ -1,0 +1,23 @@
+name: Bloc H (Encadré sans fond)
+icon: dashboard
+fields:
+  title:
+    extends: fields/blocks/html
+    label: Titre
+  html: fields/blocks/html
+  button: fields/blocks/button
+  position:
+    label: Position
+    type: radio
+    default: left
+    options:
+      left: Gauche
+      center: Centre
+      right: Droite
+  svg_background:
+    label: Fond (SVG)
+    type: radio
+    default: none
+    options:
+      none: Aucun
+      left_diagonal_orange: Orange (diagonale gauche)

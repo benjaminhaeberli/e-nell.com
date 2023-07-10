@@ -29,7 +29,7 @@ RewriteRule (^|/)\.(?!well-known\/) index.php [L]
 RewriteRule ^[^\/]+\.[a-z]+ index.php [L]
 
 # block all files in the content folder from being accessed directly
-RewriteRule ^content/(.*) index.php [L]
+RewriteRule ^content/(.*)\.(txt|md|mdown)$ index.php [L]
 RewriteRule ^site/(.*) index.php [L]
 RewriteRule ^kirby/(.*) index.php [L]
 

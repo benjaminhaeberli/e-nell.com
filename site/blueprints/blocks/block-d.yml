@@ -7,5 +7,15 @@ fields:
   cards:
     label: Cartes
     type: blocks
+    min: 1
     fieldsets:
       - card
+  variant:
+    label: Variante
+    type: select
+    required: true
+    default: grid
+    options:
+      grid: Grille (2 colonnes)
+      list1: Liste 1
+      list2: Liste 2

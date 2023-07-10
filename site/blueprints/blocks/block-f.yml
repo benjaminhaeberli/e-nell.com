@@ -10,4 +10,4 @@ fields:
     default: none
     options:
       none: Aucun
-      beige: Beige
+      diagonal_beige: Beige (diagonale)

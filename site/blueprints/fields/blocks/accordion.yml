@@ -1,0 +1,17 @@
+label: Accordéon
+type: structure
+sortable: true
+min: 0
+fields:
+  title:
+    extends: fields/blocks/html
+    label: Titre
+  content: fields/blocks/html
+  state:
+    label: État
+    type: toggle
+    default: false
+    width: 1/2
+    text:
+      - Fermé
+      - Ouvert

@@ -1,9 +1,8 @@
-name: Bloc G (Encadré simple 1)
+name: Bloc I (FAQ ou similaire)
 icon: dashboard
 fields:
   title:
     extends: fields/blocks/html
     label: Titre
-  icon: fields/blocks/icon
   html: fields/blocks/html
-  button: fields/blocks/button
+  details: fields/blocks/accordion

@@ -12,7 +12,7 @@
             $questions = $page->questions()->toStructure();
             // we can then loop through the entries and render the individual fields
             foreach ($questions as $question) : ?>
-                <details <?= ($question->open()->toBool()) ? 'open' : null ?>>
+                <details <?= ($question->state()->toBool()) ? 'open' : null ?>>
                     <summary class="p-4 font-bold border-2 border-dashed cursor-pointer border-slate-400 hover:border-slate-600">
                         <?= $question->title() ?>
                     </summary>

@@ -1,9 +1,0 @@
-Uuid: i9gidyYy5a31u3Kf
-
-----
-
-Template: image
-
-----
-
-Sort: 4
