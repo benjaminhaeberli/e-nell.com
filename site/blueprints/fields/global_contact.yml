@@ -6,13 +6,16 @@ fields:
     type: text
     placeholder: 'Paris'
     translate: false
+    required: true
   email:
     label: Email
     type: email
     translate: false
+    required: true
   phone:
     icon: phone
     label: Téléphone
     type: tel
     placeholder: '+33 6 00 00 00 00'
     translate: false
+    required: true

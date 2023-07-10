@@ -22,6 +22,8 @@ tabs:
             label: Pages
             status: all
             type: pages
+            search: true
+            sortBy: label desc
           images: sections/images
           icons: sections/icons
           fieldsB:

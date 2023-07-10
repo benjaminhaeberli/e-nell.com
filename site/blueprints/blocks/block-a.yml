@@ -14,5 +14,5 @@ fields:
     default: none
     options:
       none: Aucun
-      white: Blanc
-      blue: Bleu
+      right_diagonal_white: Blanc (diagonale droite)
+      bottom_right_blue: Bleu (coin inférieur droite)

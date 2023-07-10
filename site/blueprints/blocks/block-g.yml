@@ -1,0 +1,9 @@
+name: Bloc G (Encadré simple)
+icon: dashboard
+fields:
+  title:
+    extends: fields/blocks/html
+    label: Titre
+  icon: fields/blocks/icon
+  html: fields/blocks/html
+  button: fields/blocks/button

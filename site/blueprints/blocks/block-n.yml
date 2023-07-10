@@ -1,0 +1,17 @@
+name: Bloc N (Fil d'ariane)
+icon: dashboard
+fields:
+  max_width:
+    label: Largeur maximum
+    type: radio
+    default: basic
+    options:
+      basic: Basique (1140px)
+      medium: Moyenne (768px)
+  position:
+    label: Position
+    type: radio
+    default: left
+    options:
+      left: Gauche
+      center: Centre

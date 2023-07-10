@@ -2,15 +2,17 @@ title: Défaut
 
 tabs:
   content:
-    icon: text
-    label: Content
-    fields:
-      description:
-        label: Description
-        type: text
-      text:
-        label: Text
-        type: textarea
-        size: large
-  meta:
-    label: Meta (todo)
+    columns:
+      - width: 7/12
+        icon: text
+        label: Content
+        fields:
+          builder: fields/builder
+      - width: 5/12
+        icon: text
+        label: Content
+        sections:
+          seo:
+            type: fields
+            fields:
+              seo: fields/seo/meta

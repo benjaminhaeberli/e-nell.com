@@ -1,0 +1,11 @@
+name: Bloc E (Grille de logos)
+icon: dashboard
+fields:
+  title:
+    extends: fields/blocks/html
+    label: Titre
+  logos:
+    label: Logos
+    type: structure
+    fields:
+      image: fields/blocks/image

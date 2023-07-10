@@ -1,0 +1,13 @@
+name: Bloc F (Encadré illustré)
+icon: dashboard
+fields:
+  image: fields/blocks/image
+  html: fields/blocks/html
+  button: fields/blocks/button
+  svg_background:
+    label: Fond (SVG)
+    type: radio
+    default: none
+    options:
+      none: Aucun
+      beige: Beige

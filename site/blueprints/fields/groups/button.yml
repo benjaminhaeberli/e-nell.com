@@ -7,13 +7,31 @@ fields:
   text:
     label: Texte
     type: text
+  is_external:
+    label: Est-ce un lien externe ?
+    type: toggle
+    default: false
+    width: 1/2
+    text:
+      - Non
+      - Oui
+  link_to:
+    label: Lien vers
+    type: pages
+    multiple: false
+    required: true
+    when:
+      is_external: false
   link:
     label: Lien
     type: url
+    required: true
+    when:
+      is_external: true
   has_icon:
     label: Afficher l'icône?
     type: toggle
-    default: false
+    default: true
     width: 1/2
     text:
       - Non
@@ -21,7 +39,7 @@ fields:
   target_blank:
     label: Ouvrir dans une nouvelle fenêtre?
     type: toggle
-    default: true
+    default: false
     width: 1/2
     text:
       - Non

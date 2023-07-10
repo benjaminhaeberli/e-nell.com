@@ -10,7 +10,6 @@ tabs:
         label: Content
         fields:
           builder: fields/builder
-
       - width: 5/12
         icon: text
         label: Content

@@ -3,4 +3,5 @@ type: files
 status: all
 template: image
 search: true
+sortBy: filename asc
 parent: site

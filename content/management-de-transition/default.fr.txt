@@ -1,0 +1,18 @@
+Title: Management de transition
+
+----
+
+Builder: [{"content":{"max_width":"basic","position":"left"},"id":"51e31f23-5b67-4a1c-a645-a9d2cd23613a","isHidden":false,"type":"block-n"},{"content":{"html":"<h1>Optez pour le <span class=\"text-nell-orange\">management</span> de transition à impact</h1>\n<p>Transformez vos systèmes d’information tout en améliorant votre impact social, sociétal et environnemental.<p>","button":{"text":"Contactez-moi","is_external":"true","link_to":[],"link":"https://e-nell.com/contact/","has_icon":"true","target_blank":"false"},"image":["file://BT1gjkYQz8SlWoqs"],"svg_background":"bottom_right_blue"},"id":"f880f935-64bc-4a72-ad8f-ef5d07a2e279","isHidden":false,"type":"block-a"},{"content":{"title":"<h2>Relever le défi de la <span class=\"text-nell-orange\">transformation</span></h2>","icon":["file://R1Ui1cdt51RI40o7"],"html":"<p>Les équipes IT des grands groupes et ETI sont confrontées à de multiples challenges.</p>\n\n<p>La digitalisation croissante, la prise de conscience des enjeux environnementaux du numérique ou encore la recherche de performance poussent les entreprises à opérer des changements profonds : refonte des systèmes d’information, développement de nouvelles compétences, modifications du fonctionnement organisationnel…</p>\n\n<p>Vous manquez de temps et de recul pour mettre en œuvre ces transformations ?</p>\n \n<p>Vous avez besoin d’un regard aiguisé, de connaissances techniques pour avancer dans ces changements ?</p>\n \n<p>C’est là qu’intervient le management de transition à impact.</p>","button":""},"id":"865ba015-dae8-48ab-9d36-d7071287bf2c","isHidden":false,"type":"block-g"}]
+
+----
+
+Kirbyseoobject:
+
+kirbyseometatitle: ""
+kirbyseometadesc: ""
+kirbyseokeywords: ""
+kirbyseocanonicalurl: ""
+
+----
+
+Uuid: OECgpy3z1oy6lzLI
